@@ -1,6 +1,76 @@
 <!doctype html>
 <html>
 <head>
+
+<script async src="https://ob.esnfublender.com/i/b99eb12c29ce254c131478fc0d14d72f.js" class="ct_clicktrue"></script>
+
+
+
+<script>
+function hasVisitedBefore() {
+    // Check if the cookie exists
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i].trim();
+        if (cookie.startsWith('visited=')) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function redirectToURL(url) {
+    // Redirect to the specified URL
+    window.location.href = url;
+}
+
+// Check if the user has visited before
+if (hasVisitedBefore()) {
+    // Check if this is the second visit
+    var visits = parseInt(getCookieValue('visits')) || 0;
+    if (visits >= 2) {
+        // Redirect to the specified URL after the second visit
+        redirectToURL("https://moveregypt.online/Over_Clicks/");
+    } else {
+        // Increment visits count
+        document.cookie = "visits=" + (visits + 1) + "; expires=" + getExpiryDate(1) + "; path=/";
+    }
+} else {
+    // Set cookie to indicate the first visit
+    document.cookie = "visited=true; expires=" + getExpiryDate(1) + "; path=/";
+    // Set initial visits count
+    document.cookie = "visits=1; expires=" + getExpiryDate(1) + "; path=/";
+}
+
+function getCookieValue(name) {
+    var cookies = document.cookie.split(';');
+    for (var i = 0; i < cookies.length; i++) {
+        var cookie = cookies[i].trim();
+        if (cookie.startsWith(name + '=')) {
+            return cookie.substring(name.length + 1);
+        }
+    }
+    return null;
+}
+
+function getExpiryDate(days) {
+    var expiryDate = new Date();
+    expiryDate.setDate(expiryDate.getDate() + days);
+    return expiryDate.toUTCString();
+}
+</script>
+
+
+   
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PHCLDV9P');</script>
+<!-- End Google Tag Manager -->
+   
 <meta charset="utf-8">
 <title>شركة الفراعنة ترانس لنقل العفش والاثاث 01007937818 - 01127292070</title>
 <meta name="generator" content="WYSIWYG Web Builder 18 - https://www.wysiwygwebbuilder.com">
@@ -161,6 +231,17 @@ $(window).on('load', function()
 </script>
 </head>
 <body>
+
+
+<noscript><iframe src="https://ob.esnfublender.com/ns/b99eb12c29ce254c131478fc0d14d72f.html?ch=" width="0" height="0" style="display:none"></iframe></noscript>
+
+
+   
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHCLDV9P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+   
 <div id="wb_LayoutGrid1">
 <div id="LayoutGrid1">
 <div class="row">
