@@ -10,7 +10,7 @@
   Base
 ========================================================================== */
 body {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", cairo;
   color: #115c9b;
 }
 
@@ -18,7 +18,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", cairo;
 }
 
 a {
@@ -180,7 +180,7 @@ p strong
   text-align:right;
 }
 .navbar-main li a {
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", cairo;
   font-size: 18px;
   padding: 20px 15px;
   border-bottom: 2px solid transparent;
@@ -227,7 +227,7 @@ p strong
 }
 .carousel-home .carousel-title {
   color: #fff;
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", cairo;
   font-size: 50px;
   font-weight: bold;
   text-transform: uppercase;
@@ -782,7 +782,7 @@ form .alert {
   right: 5px;
   font-style: 18px;
   display: block;
-  font-family: "Cairo", sans-serif;
+  font-family: "Cairo", cairo;
   bottom: -50px;
   -moz-transition: all, 0.6s;
   -o-transition: all, 0.6s;
